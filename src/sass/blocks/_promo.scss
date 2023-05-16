@@ -1,0 +1,100 @@
+.promo{
+    min-height: 650px;
+    padding: 21px 0 90px 0;
+    background: url('../../img/first_bg.jpg') center (center/cover) no-repeat;
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 90px;
+    }
+    &__header{
+        color: $main-color;
+        font-weight: 700;
+        font-size: 42px;
+        text-transform: uppercase;
+    }
+    &__subheader{
+        margin-top: 9px;
+        font-weight: 500;
+        font-size: 24px;
+        text-transform: uppercase;
+        color: $main-color;
+    }
+    &__icons{
+        width: 424px;
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__icon{
+        color: $main-color;
+        text-align: center;
+        width: 105px;
+        line-height: 17px;
+        font-weight: 500;
+        font-size: 14px;
+        img{
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+    &__link{
+        margin-top: 8px;
+        font-weight: 500;
+        font-size: 16px;
+        color: $main-color;
+        a{
+            font-size: 16px;
+            text-decoration-line: underline;
+            color: $main-color;
+            text-transform: uppercase;
+        }
+    }
+}
+.advantage{
+    background-color:#F6F6F6;
+    text-align: center;
+    min-height: 470px;
+    padding: 70px 0 67px 0;
+    margin: 0 auto;
+    &__header{
+        font-weight: 700;
+        font-size: 30px;
+        color: #0D0D0D;
+    }
+    &__wrappers{
+        margin-top: 60px;
+        width: 950px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__wrapper {
+        text-align: center;
+        color: #0D0D0D;
+        width: 259px;
+        text-align: center;
+        img{
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 35px;
+        }
+    }
+    &__title{
+        font-weight: 700;
+        font-size: 18px;;
+    }
+    &__subtitle{
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 300;
+        span{
+            font-weight: 300;
+            font-size: 14px;
+            text-decoration-line: underline;
+            color: #FF0000;
+        }
+    }
+}
